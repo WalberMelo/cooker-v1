@@ -1,0 +1,25 @@
+{
+  "name": "cookme",
+  "version": "1.0.0",
+  "description": "Recipe application for cooking",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Walber Melo",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "assert": "^2.0.0",
+    "buffer": "^5.7.1",
+    "parcel": "^2.8.2",
+    "path-browserify": "^1.0.1",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5"
+  },
+  "dependencies": {
+    "core-js": "^3.27.1",
+    "fraction.js": "^4.2.0",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
